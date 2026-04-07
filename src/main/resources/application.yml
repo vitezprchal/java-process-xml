@@ -1,0 +1,15 @@
+spring:
+  main:
+    web-application-type: none
+  sql:
+    init:
+      mode: always
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ruian
+    username: ruian
+    password: ruian
+    driver-class-name: org.postgresql.Driver
+
+app:
+  import:
+    xml-path: assets/ruian.xml
